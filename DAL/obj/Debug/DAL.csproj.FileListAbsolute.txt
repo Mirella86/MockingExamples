@@ -1,0 +1,12 @@
+D:\Test applications\MockingExampleSolution\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\DAL.dll.config
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\DAL.dll
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\DAL.pdb
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.dll
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\Models.dll
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\Models.pdb
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.xml
+D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test applications\MockingExampleSolution\DAL\obj\Debug\DAL.dll
+D:\Test applications\MockingExampleSolution\DAL\obj\Debug\DAL.pdb

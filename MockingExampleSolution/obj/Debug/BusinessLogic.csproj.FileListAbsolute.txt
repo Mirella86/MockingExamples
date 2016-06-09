@@ -1,0 +1,11 @@
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\MockingExampleSolution.dll
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\MockingExampleSolution.pdb
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\obj\Debug\MockingExampleSolution.dll
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\obj\Debug\MockingExampleSolution.pdb
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\DAL.dll
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\EntityFramework.dll
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\Models.dll
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\DAL.pdb
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\EntityFramework.xml
+d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\Models.pdb
