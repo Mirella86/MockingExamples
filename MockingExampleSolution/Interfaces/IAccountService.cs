@@ -11,7 +11,6 @@ namespace MockingExampleSolution.Interfaces
     {
         double CapitalizeInterestForClientAccount(int clientId, int accountId);
         double CalculateInterest(double balance);
-        Account FindAccountByClientIdAndAccountId(int clientId, int accountId);
-        Account FindClientCurrentAccount(int ClientId);
+        void AddInterestRateToAccountFromAllClientsAccounts(int clientId, Account account);
     }
 }

@@ -16,3 +16,26 @@ D:\Test applications\MockingExampleSolution\BusinessLogic.Tests\bin\Debug\Castle
 D:\Test applications\MockingExampleSolution\BusinessLogic.Tests\bin\Debug\Moq.xml
 D:\Test applications\MockingExampleSolution\BusinessLogic.Tests\bin\Debug\Models.pdb
 D:\Test applications\MockingExampleSolution\BusinessLogic.Tests\bin\Debug\EntityFramework.xml
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\BusinessLogic.Tests.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\BusinessLogic.Tests.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Castle.Core.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\DAL.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\MockingExampleSolution.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Models.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Moq.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\EntityFramework.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\DAL.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\MockingExampleSolution.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Models.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Castle.Core.xml
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\Moq.xml
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\EntityFramework.xml
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\obj\Debug\BusinessLogic.Tests.csprojResolveAssemblyReference.cache
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\obj\Debug\BusinessLogic.Tests.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\obj\Debug\BusinessLogic.Tests.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\BusinessLogic.Tests.dll.config
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\EntityFramework.SqlServer.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\FakeModels.dll
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\FakeModels.pdb
+d:\GitRepos\MockingExamples\BusinessLogic.Tests\bin\Debug\EntityFramework.SqlServer.xml

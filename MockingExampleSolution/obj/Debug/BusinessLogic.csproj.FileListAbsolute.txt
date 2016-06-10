@@ -9,3 +9,14 @@ d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\Mod
 d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\DAL.pdb
 d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\EntityFramework.xml
 d:\Test applications\MockingExampleSolution\MockingExampleSolution\bin\Debug\Models.pdb
+d:\GitRepos\MockingExamples\MockingExampleSolution\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+d:\GitRepos\MockingExamples\MockingExampleSolution\obj\Debug\MockingExampleSolution.dll
+d:\GitRepos\MockingExamples\MockingExampleSolution\obj\Debug\MockingExampleSolution.pdb
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\MockingExampleSolution.dll
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\MockingExampleSolution.pdb
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\DAL.dll
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\Models.dll
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\EntityFramework.dll
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\DAL.pdb
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\Models.pdb
+d:\GitRepos\MockingExamples\MockingExampleSolution\bin\Debug\EntityFramework.xml

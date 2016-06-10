@@ -10,3 +10,15 @@ D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.xml
 D:\Test applications\MockingExampleSolution\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Test applications\MockingExampleSolution\DAL\obj\Debug\DAL.dll
 D:\Test applications\MockingExampleSolution\DAL\obj\Debug\DAL.pdb
+d:\GitRepos\MockingExamples\DAL\bin\Debug\DAL.dll.config
+d:\GitRepos\MockingExamples\DAL\bin\Debug\DAL.dll
+d:\GitRepos\MockingExamples\DAL\bin\Debug\DAL.pdb
+d:\GitRepos\MockingExamples\DAL\bin\Debug\EntityFramework.dll
+d:\GitRepos\MockingExamples\DAL\bin\Debug\EntityFramework.SqlServer.dll
+d:\GitRepos\MockingExamples\DAL\bin\Debug\Models.dll
+d:\GitRepos\MockingExamples\DAL\bin\Debug\Models.pdb
+d:\GitRepos\MockingExamples\DAL\bin\Debug\EntityFramework.xml
+d:\GitRepos\MockingExamples\DAL\bin\Debug\EntityFramework.SqlServer.xml
+d:\GitRepos\MockingExamples\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+d:\GitRepos\MockingExamples\DAL\obj\Debug\DAL.dll
+d:\GitRepos\MockingExamples\DAL\obj\Debug\DAL.pdb

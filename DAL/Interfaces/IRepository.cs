@@ -10,10 +10,11 @@ namespace DAL.Interfaces
 
     public interface IRepository<TEntity>
     {
-        IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null,
-            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-            string includeProperties = "");
+        //IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null,
+        //    Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+        //    string includeProperties = "");
 
+        IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         TEntity GetById(object id);
         void Add(TEntity entity);
         void Delete(object id);

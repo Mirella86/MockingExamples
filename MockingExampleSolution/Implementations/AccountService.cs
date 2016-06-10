@@ -23,16 +23,19 @@ namespace MockingExampleSolution.Implementations
             _accountRepository = accountRepo;
         }
 
-        public virtual double CapitalizeInterestForClientAccount(int clientId, int accountId)
+        public double CapitalizeInterestForClientAccount(int clientId, int accountId)
         {
-            var account = FindAccountByClientIdAndAccountId(clientId, accountId);
+            Account account = GetAccountByClientIdAndAccountId(clientId, accountId);
             if (account != null)
                 return CalculateInterest(account.Balance);
 
             throw new AccountCustomException();
         }
 
-        public virtual double CalculateInterest(double balance)
+        private Account GetAccountByClientIdAndAccountId(int clientId, int accountId)
+            => _accountRepository.Find(i => i.Id == accountId && i.ClientId == clientId).SingleOrDefault();
+
+        public double CalculateInterest(double balance)
         {
             if (balance < ThresholdMIN)
                 return balance * 0.1;
@@ -46,20 +49,22 @@ namespace MockingExampleSolution.Implementations
             return 0;
         }
 
-        public virtual Account FindAccountByClientIdAndAccountId(int clientId, int accountId)
-            => _accountRepository.Get(i => i.ClientId == clientId && i.Id == accountId).SingleOrDefault();
-
-        public virtual Account FindClientCurrentAccount(int clientId)
-            => _accountRepository.Get(i => i.ClientId == clientId && i.Name.ToLower().Contains("current")).FirstOrDefault();
-
-        public virtual void AddInterestRateToAccount(int clientId, Account account)
+        public void AddInterestRateToAccountFromAllClientsAccounts(int clientId, Account account)
         {
-            var allClientsAccounts = GetAllClientAcounts(clientId);
-            var calculatedInterest = CapitalizeInterestForClientAccount(clientId, accountId);
-            account.Balance += calculatedInterest;
+            //capitalize first current account
+            account.Balance += CapitalizeInterestForClientAccount(clientId, account.Id);
+
+            //capitalize for the rest of the accounts into the current
+            IEnumerable<Account> allClientsAccounts = GetAllClientsAccounts(clientId).Where(i => i.Id != account.Id);
+            foreach (var clientAccount in allClientsAccounts)
+            {
+                double calculatedInterest = CapitalizeInterestForClientAccount(clientId, clientAccount.Id);
+                account.Balance += calculatedInterest;
+            }
+            _accountRepository.Update(account);
         }
 
-        public virtual IEnumerable<Account> GetAllClientAcounts(int clientId)
-        => _accountRepository.Get(i => i.ClientId == clientId);
+        private IQueryable<Account> GetAllClientsAccounts(int clientId)
+            => _accountRepository.Find(i => i.ClientId == clientId);
     }
 }

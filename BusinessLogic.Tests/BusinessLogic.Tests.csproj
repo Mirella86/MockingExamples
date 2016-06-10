@@ -39,11 +39,20 @@
       <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Moq, Version=4.5.8.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
       <HintPath>..\packages\Moq.4.5.8\lib\net45\Moq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -58,16 +67,22 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AccountServiceTest.cs" />
+    <Compile Include="AccountServiceTestWithFakes.cs" />
+    <Compile Include="AccountServiceTestWithMocks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{8BA7AF06-A84B-4901-BD6D-FABC3DAE4312}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeModels\FakeModels.csproj">
+      <Project>{56A05F01-85A1-4817-B8AB-A1C90EBFF4AB}</Project>
+      <Name>FakeModels</Name>
     </ProjectReference>
     <ProjectReference Include="..\MockingExampleSolution\BusinessLogic.csproj">
       <Project>{4DE5EFA7-769C-476A-93C1-58C86ABCF891}</Project>

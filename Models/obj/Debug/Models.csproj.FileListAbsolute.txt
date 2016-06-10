@@ -8,3 +8,13 @@ D:\Test applications\MockingExampleSolution\Models\bin\Debug\EntityFramework.Sql
 D:\Test applications\MockingExampleSolution\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 D:\Test applications\MockingExampleSolution\Models\obj\Debug\Models.dll
 D:\Test applications\MockingExampleSolution\Models\obj\Debug\Models.pdb
+d:\GitRepos\MockingExamples\Models\bin\Debug\Models.dll.config
+d:\GitRepos\MockingExamples\Models\bin\Debug\Models.dll
+d:\GitRepos\MockingExamples\Models\bin\Debug\Models.pdb
+d:\GitRepos\MockingExamples\Models\bin\Debug\EntityFramework.dll
+d:\GitRepos\MockingExamples\Models\bin\Debug\EntityFramework.SqlServer.dll
+d:\GitRepos\MockingExamples\Models\bin\Debug\EntityFramework.xml
+d:\GitRepos\MockingExamples\Models\bin\Debug\EntityFramework.SqlServer.xml
+d:\GitRepos\MockingExamples\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+d:\GitRepos\MockingExamples\Models\obj\Debug\Models.dll
+d:\GitRepos\MockingExamples\Models\obj\Debug\Models.pdb

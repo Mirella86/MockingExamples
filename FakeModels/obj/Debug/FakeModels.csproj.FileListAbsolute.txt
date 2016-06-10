@@ -1,0 +1,14 @@
+D:\GitRepos\MockingExamples\FakeModels\obj\Debug\FakeModels.csprojResolveAssemblyReference.cache
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\FakeModels.dll.config
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\FakeModels.dll
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\FakeModels.pdb
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\DAL.dll
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\EntityFramework.dll
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\Models.dll
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\DAL.pdb
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\Models.pdb
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\EntityFramework.xml
+D:\GitRepos\MockingExamples\FakeModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitRepos\MockingExamples\FakeModels\obj\Debug\FakeModels.dll
+D:\GitRepos\MockingExamples\FakeModels\obj\Debug\FakeModels.pdb

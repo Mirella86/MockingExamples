@@ -15,8 +15,8 @@ namespace Models
         {
         }
 
-        public DbSet<Client> Clients { get; set; }
-        public DbSet<Account> Accounts { get; set; }
+        public IDbSet<Client> Clients { get; set; }
+        public IDbSet<Account> Accounts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

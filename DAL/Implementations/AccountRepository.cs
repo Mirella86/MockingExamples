@@ -1,6 +1,8 @@
 ﻿using DAL.Interfaces;
 using System.Data.Entity;
 using Models.Models;
+using System;
+using System.Linq;
 
 namespace DAL.Implementations
 {
@@ -9,5 +11,6 @@ namespace DAL.Implementations
         public AccountRepository(DbContext context) : base(context)
         {
         }
+
     }
 }
