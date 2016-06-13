@@ -29,7 +29,8 @@ namespace MockingExampleSolution.Implementations
             if (account != null)
                 return CalculateInterest(account.Balance);
 
-            throw new AccountCustomException();
+                throw new AccountCustomException();
+    
         }
 
         private Account GetAccountByClientIdAndAccountId(int clientId, int accountId)

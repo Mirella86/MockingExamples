@@ -49,11 +49,13 @@ namespace BusinessLogic.Tests
                     .Returns(new Func<Expression<Func<Account, bool>>, IQueryable<Account>>(
                     expr => _accounts.Where(expr.Compile()).AsQueryable()));
 
+
             _accountServiceInTest = new AccountService(_accountRepositoryMock.Object);
         }
 
 
         [TestMethod]
+        [TestCategory("ExceptionAnd0")]
         [ExpectedException(typeof(AccountCustomException))]
         public void When_Account_Is_Not_Found_And_Try_To_Capitalize_Interest_Throw_Exception()
         {
@@ -61,6 +63,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExceptionAnd0")]
         public void When_Balance_Is_0_Returns_0()
         {
             //Balance = 0
@@ -71,6 +74,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("PositiveValues")]
         public void When_Balance_Is_Under_100_Calculate_Interest_10_Percent()
         {
             //Balance = 50
@@ -81,6 +85,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("PositiveValues")]
         public void When_Balance_Is_Under_1000_Calculate_Interest_5_Percent()
         {
             //Balance = 500
@@ -91,6 +96,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("PositiveValues")]
         public void When_Balance_Is_Under_10000_Calculate_Interest_1_Percent()
         {
             //Balance = 5000
@@ -101,6 +107,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("PositiveValues")]
         public void When_Balance_Is_Over_10000_Return_0_Interest()
         {
             // Balance = 10 000
@@ -110,6 +117,7 @@ namespace BusinessLogic.Tests
         }
 
         [TestMethod]
+        [TestCategory("Overall")]
         public void When_Calculating_Interest_For_All_Account_Must_Increase_Current_Account_With_Interest()
         {
             var account = _accounts.Single(i => i.Id == 2);

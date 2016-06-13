@@ -11,6 +11,7 @@ using System.Data.Entity;
 namespace BusinessLogic.Tests
 {
     [TestClass]
+    [Ignore]
     public class AccountServiceTestWithFakes
     {
         FakeAccountRepository _fakeAccountRepository;
